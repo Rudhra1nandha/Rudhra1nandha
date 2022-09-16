@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WD-MINOR-AUGUST</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="html" type="text" src="Project-min.html">
     <style>
@@ -30,14 +30,12 @@
             border-radius: 50px;
         }
         .images{
-            
             display: grid;
              grid-template-columns: 1fr 1fr 1fr 1fr;
              grid-auto-rows:300px;
              grid-column-gap: 10px;
              grid-row-gap:20px;
              text-align: center;  
-          
         }
         img{
             width: 250px;
@@ -53,7 +51,6 @@
             background-color:aqua;
             width: 100%;
             font-size: 25px;
-
          }
          .small{
              color:coral;
@@ -63,7 +60,6 @@
          .lead{
              color:navy;
              text-align: right;
-
          }
          .lead h4{
              font-size: 20px;
@@ -92,7 +88,6 @@
              color:black;
              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
              margin-top: 60px;
-             
          }
          .song{
              text-align: center;
@@ -198,7 +193,6 @@
         font-size: 35px;
         font-weight: bold;
     }
-     
     .close:hover,
     .close:focus {
         color: red;
@@ -208,7 +202,6 @@
         -webkit-animation: animatezoom 0.6s;
         animation: animatezoom 0.6s
     }
-     
     @-webkit-keyframes animatezoom {
         from {
             -webkit-transform: scale(0)
@@ -217,7 +210,6 @@
             -webkit-transform: scale(1)
         }
     }
-     
     @keyframes animatezoom {
         from {
             transform: scale(0)
@@ -226,7 +218,6 @@
             transform: scale(1)
         }
     }
-     
     @media screen and (max-width: 300px) {
         span.psw {
             display: block;
@@ -236,14 +227,14 @@
             width: 100%;
         }
     }
-
-        
+    .form{
+        padding-top: 10px;
+    }   
     </style>
 
 </head>
 <body>
-    <div class="col-md-12 col-sm-6">
-        
+    <div class="col-md-12 col-sm-6">   
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -251,9 +242,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-
                 </button>
-                <a href="#"  class="navbar-brand" >Welcome</a>
+                <a href="#"  class="navbar-brand" >INDIA</a>
             </div>
             <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="nav navbar-nav">
@@ -267,26 +257,26 @@
                 <li class="disabled"><a href="#"><i class="glyphicon glyphicon-earphone"></i> Book now</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <form class="form" class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search Place" aria-label="search">
+                    </form>
+                </li> 
                 <li><a href="#">
                     <i class="glyphicon glyphicon-user"></i> 
                     About</a>
                 </li>
-                
                 <li>
-                    <a target="blank" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
- 
+                    <a target="blank" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i class="glyphicon glyphicon-check"></i> Login</a>
                     <div id="id01" class="modal">
-                 
                         <form class="modal-content animate" action="/action_page.php">
                             <div class="imgcontainer">
                                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                            
                             </div>
-                 
                             <div class="container">
                                 <label><b>Username</b></label>
                                 <input type="text" placeholder="Enter Username" name="uname" required>
-                 
+
                                 <label><b>Password</b></label>
                                 <input type="password" placeholder="Enter Password" name="psw" required>
                  
@@ -337,14 +327,11 @@
     5.Sanji stupa<br>
     Build by:Lord Asoka in 3rd century for emperior Ashoka.
     <p><h4 style="color:black; text-align: center;">To see more click places and Images for more details..</h4></p>
-
 </p>
 
     </div>
     <div class="images">
-        <!--
-            
-          -->
+
           <div>
               <a id="maha" href="https://en.wikipedia.org/wiki/Group_of_Monuments_at_Mahabalipuram" class="img-1">
                   <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/08/mahabalipuram-400x229.jpg">
@@ -360,7 +347,7 @@
         <div class="name"> Agra-Fort</div>
         <p class="img2">This fort was include in one of sherlock Holme's cases:
             <a href="https://en.wikipedia.org/wiki/Agra_Fort">See more...</a></p>
-    </div>
+        </div>
 
         <div>
             <a target="blank" href="https://en.wikipedia.org/wiki/Humayun%27s_Tomb" class="img-3">
@@ -421,7 +408,7 @@
         <div class="col-md-12">
             
     <div class="song">
-        <h4 class="song1">National Anthom:</h4>
+        <h4 class="song1">National Anthem:</h4>
         <audio controls>
            <source src="http://web.archive.org/web/20041019023748/http://www.navyband.navy.mil/anthems/ANTHEMS/India.mp3" type="audio/mpeg">
     
@@ -430,12 +417,14 @@
     
     <br>
 
-       <div class="footer">"Design and Developed By (Name)"</div>
+       <div class="footer"> "<i> Design and Developed By:</i> (Nandha gopal S)"</div>
        
            </div>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+    </script>
     
 </body>
 </html>
