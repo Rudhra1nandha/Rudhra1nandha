@@ -17,6 +17,7 @@
             background-attachment:fixed;
             display:inline-block;
         }
+
         .header{
             margin-top:70px;
             font-family: cursive;
@@ -29,6 +30,14 @@
             text-decoration: underline;
             border-radius: 50px;
         }
+        .footer{
+            margin-bottom: 20px;
+            text-align: center;
+            background-color:aqua;
+            width: 100%;
+            font-size: 25px;
+         }
+
         .images{
             display: grid;
              grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -37,36 +46,7 @@
              grid-row-gap:20px;
              text-align: center;  
         }
-        img{
-            width: 250px;
-             height: 200px;
-             object-fit:cover;
-             margin-left: 50px;
-             margin-top: 50px;
-             border-radius: 50px;
-        }
-         .footer{
-            margin-bottom: 20px;
-            text-align: center;
-            background-color:aqua;
-            width: 100%;
-            font-size: 25px;
-         }
-         .small{
-             color:coral;
-             text-align: right;
-             font-size:25px;
-         }
-         .lead{
-             color:navy;
-             text-align: right;
-         }
-         .lead h4{
-             font-size: 20px;
-         }
-         .img-6{
-             margin-left: 10px;
-         }
+
          .name{
              color: red;
              background: white;
@@ -83,18 +63,19 @@
          h4{
              color:red;
          }
-         .song1{
-             margin-right:130px;
-             color:black;
-             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-             margin-top: 60px;
-         }
-         .song{
-             text-align: center;
-             margin-bottom: 10px;
-         }
+        img{
+            width: 250px;
+             height: 200px;
+             object-fit:cover;
+             margin-left: 50px;
+             margin-top: 50px;
+             border-radius: 50px;
+        } 
          .img-1{
              margin-left:0px !important;
+         }
+         .img-6{
+             margin-left: 10px;
          }
         .img1{
             margin-left:58px;
@@ -229,7 +210,18 @@
     }
     .form{
         padding-top: 10px;
-    }   
+    } 
+
+    .song1{
+             margin-right:130px;
+             color:black;
+             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             margin-top: 60px;
+         }
+         .song{
+             text-align: center;
+             margin-bottom: 10px;
+         }  
     </style>
 
 </head>
@@ -390,35 +382,25 @@
             <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Golden-Temple-400x267.jpg">
         </a><div class="name"> Golden-Temple</div>
         <p class="img7">One of the most famous Guru <a href="https://en.wikipedia.org/wiki/Great_Living_Chola_Temples">see more...</a></p>
-    
-    
     </div>
-
         <div>
             <a target="blank" href="https://en.wikipedia.org/wiki/Great_Living_Chola_Temples" class="img-8">
             <img src="https://www.bing.com/th?id=OIP.CQbEsKMwYrphq-TQWO9wkQHaFh&w=136&h=106&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
         </a>
         <div class="name"> Chola-Temple</div>
         <p class="img8">Raja raja cholan was insp <a href="https://en.wikipedia.org/wiki/Great_Living_Chola_Temples">see more...</a></p>
-       
     </div>
     </div>
-
     <div class="row">
-        <div class="col-md-12">
-            
+        <div class="col-md-12">  
     <div class="song">
         <h4 class="song1">National Anthem:</h4>
         <audio controls>
-           <source src="http://web.archive.org/web/20041019023748/http://www.navyband.navy.mil/anthems/ANTHEMS/India.mp3" type="audio/mpeg">
-    
-       </audio>    
+            <source src="http://web.archive.org/web/20041019023748/http://www.navyband.navy.mil/anthems/ANTHEMS/India.mp3" type="audio/mpeg">
+        </audio>
     </div>
-    
     <br>
-
        <div class="footer"> "<i> Design and Developed By:</i> (Nandha gopal S)"</div>
-       
            </div>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
     </script>
